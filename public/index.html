@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <meta http-equiv="Cache-control" content="no-cache" />
+        <meta http-equiv="Pragma" content="no-cache" />
+
+        <!-- Primary Meta Tags -->
+
+        <meta
+            name="title"
+            content="ApiTwist - Adaptive, Personalised & Interactive Integrated Learning System
+"
+        />
+        <meta
+            name="description"
+            content="ApiTwist is a adaptive, personalized & interactive integrated learning platform. This platform consists of Book, Class, Content, Exam and LMS modules. This integrated learning platform is designed according to the whole learning approach. This platform offers adaptive, personalized & interactive modules supported by artificial intelligence."
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://apitwist.com/login" />
+        <meta
+            property="og:title"
+            content="ApiTwist - Adaptive, Personalised & Interactive Integrated Learning System
+"
+        />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="https://apitwist.com/assets/img/meta-banner.png" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://apitwist.com/login" />
+        <meta
+            property="twitter:title"
+            content="ApiTwist - Adaptive, Personalised & Interactive Integrated Learning System
+"
+        />
+        <meta
+            property="twitter:description"
+            content="The teacher should use technology in the classroom and not waste time using it."
+        />
+        <meta property="twitter:image" content="https://apitwist.com/assets/img/meta-banner.png" />
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="200" />
+        <!--    Favicons    -->
+        <link rel="apple-touch-icon" sizes="57x57" href="%PUBLIC_URL%/favicons/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="%PUBLIC_URL%/favicons/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="%PUBLIC_URL%/favicons/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="%PUBLIC_URL%/favicons/apple-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="%PUBLIC_URL%/favicons/apple-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="%PUBLIC_URL%/favicons/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="%PUBLIC_URL%/favicons/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="%PUBLIC_URL%/favicons/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/favicons/apple-icon-180x180.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="%PUBLIC_URL%/favicons/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="%PUBLIC_URL%/favicons/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicons/favicon-16x16.png" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <!--    Favicons    -->
+
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <title id="title"></title>
+        <script>
+            const lang = localStorage.getItem("locale") === "tr" ? "tr" : "en"
+
+            let title
+            if (lang === "en") {
+                title = "ApiTwist - Adaptive, Personalised & Interactive Integrated Learning System"
+            } else if (lang === "tr") {
+                title = "ApiTwist - Bireye Uyarlanmış, Kişiselleştirilmiş ve İnteraktif Bütünleşik Öğrenme Sistemi"
+            }
+
+            document.getElementById("title").innerText = title
+        </script>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run ApiTwist.</noscript>
+        <div id="root"></div>
+        <script src="./renderer.js"></script>
+    </body>
+</html>

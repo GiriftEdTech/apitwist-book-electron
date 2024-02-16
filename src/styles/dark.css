@@ -1,0 +1,968 @@
+.book-color-0 {
+  background-color: var(--c-box-bg-0);
+}
+
+.book-color-1 {
+  background-color: var(--c-box-bg-1);
+}
+
+.book-color-2 {
+  background-color: var(--c-box-bg-2);
+}
+
+.book-color-3 {
+  background-color: var(--c-box-bg-3);
+}
+
+.book-color-4 {
+  background-color: var(--c-box-bg-4);
+}
+
+.book-color-5 {
+  background-color: var(--c-box-bg-5);
+}
+
+.book-color-6 {
+  background-color: var(--c-box-bg-6);
+}
+
+.book-color-7 {
+  background-color: var(--c-box-bg-7);
+}
+
+.book-color-8 {
+  background-color: var(--c-box-bg-8);
+}
+
+.book-color-9 {
+  background-color: var(--c-box-bg-9);
+}
+
+.class-color-0 {
+  background-color: var(--c-box-bg-0);
+}
+
+.class-color-1 {
+  background-color: var(--c-box-bg-1);
+}
+
+.class-color-2 {
+  background-color: var(--c-box-bg-2);
+}
+
+.class-color-3 {
+  background-color: var(--c-box-bg-3);
+}
+
+.class-color-4 {
+  background-color: var(--c-box-bg-4);
+}
+
+.class-color-5 {
+  background-color: var(--c-box-bg-5);
+}
+
+.class-color-6 {
+  background-color: var(--c-box-bg-6);
+}
+
+.class-color-7 {
+  background-color: var(--c-box-bg-7);
+}
+
+.class-color-8 {
+  background-color: var(--c-box-bg-8);
+}
+
+.class-color-9 {
+  background-color: var(--c-box-bg-9);
+}
+
+body.dark {
+  background-color: var(--c-bg-dark-0);
+  /* ---------------------------------------------------
+      BOOK
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      FAVORITE BOOK
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      CURRENT BOOK POPUP
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      BOOK CAROUSEL
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      HEADER
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      TOPBAR
+  -----------------------------------------------------*/
+  /* ---------------------------------------------------
+      BANNER
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      FOOTER
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      SEARCH COMPONENT - REACT AUTO SUGGESTION
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      AUTHENTICATION
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      PROFILE PAGE STYLE
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      BOOK PAGE SIDEBAR STYLE
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      BOOK PAGE TIMER STYLE
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      BOOK PAGE TOOLBAR STYLE
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+              FEEDBACK
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      BOOKMARK
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+      RADIX-DROPDOWN // BOOKMARKS
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+                  Reactour
+  ----------------------------------------------------- */
+  /* ---------------------------------------------------
+                  SWAL ALERT 
+  ----------------------------------------------------- */
+}
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6,
+body.dark a {
+  color: var(--c-font-dark) !important;
+}
+body.dark .hover-bg:hover {
+  background-color: var(--c-bg-dark-2);
+}
+body.dark .hover-bg:hover span,
+body.dark .hover-bg:hover svg,
+body.dark .hover-bg:hover a {
+  color: var(--c-font-dark) !important;
+}
+body.dark .book-color-0 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-0 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-0 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .book-color-1 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-1 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-1 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .book-color-2 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-2 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-2 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .book-color-3 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-3 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-3 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .book-color-4 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-4 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-4 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .book-color-5 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-5 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-5 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .book-color-6 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-6 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-6 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .book-color-7 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-7 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-7 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .book-color-8 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-8 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-8 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .book-color-9 {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book-color-9 span {
+  color: var(--c-font-dark);
+}
+body.dark .book-color-9 .category {
+  border: 1px solid var(--c-font-dark);
+}
+body.dark .category {
+  border: 1px solid var(--c-font-dark);
+  color: var(--c-font-dark);
+}
+body.dark .favorite {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-bg-dark-4);
+}
+body.dark .favorite.accordionMenuItem {
+  background-color: unset;
+  position: unset;
+  margin-right: 21px;
+  height: unset;
+  width: unset;
+}
+body.dark .favorite.accordionMenuItem svg {
+  color: var(--c-font-dark);
+}
+body.dark .favorited {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .favorited svg {
+  stroke: var(--c-heart-primary);
+}
+body.dark .favorited.accordionMenuItem {
+  background-color: unset;
+  position: unset;
+  margin-right: 21px;
+  height: unset;
+  width: unset;
+}
+body.dark .favorited.accordionMenuItem svg {
+  stroke: var(--c-heart-primary);
+}
+body.dark .current_book_popup {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .current_book_name {
+  color: var(--c-font-dark) !important;
+}
+body.dark .current_book_publisher {
+  color: var(--c-font-dark) !important;
+}
+body.dark .progress {
+  background-color: var(--c-bg-dark-0);
+}
+body.dark .book_carousel .book_carousel_header h1.book_carousel_title {
+  color: var(--c-font-dark);
+}
+body.dark .book_carousel .single_book_container .favorite {
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .book_carousel .single_book_container .favorited {
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark stop:nth-child(1) {
+  stop-color: var(--c-bg-dark-1);
+  stop-opacity: 0.2;
+}
+body.dark stop:nth-child(2) {
+  stop-color: var(--c-bg-dark-2);
+  stop-opacity: 0.2;
+}
+body.dark stop:nth-child(3) {
+  stop-color: var(--c-bg-dark-1);
+  stop-opacity: 0.2;
+}
+@media (max-width: 991.98px) {
+  body.dark header ul.nav-items.opened {
+    background-color: var(--c-bg-dark-0);
+  }
+  body.dark header svg.menu_svg__feather {
+    color: var(--c-font-dark);
+  }
+  body.dark header svg.x_svg__feather {
+    color: var(--c-font-dark);
+  }
+}
+body.dark header {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark header svg.menu_svg__feather {
+  color: var(--c-font-dark);
+}
+body.dark header ul.nav-items li a {
+  color: var(--c-font-dark);
+}
+body.dark header div.right .message-circle_svg__feather,
+body.dark header div.right .sun_svg__feather {
+  color: var(--c-font-dark);
+}
+body.dark header div.right div {
+  color: var(--c-font-dark);
+}
+body.dark header div.right div.search {
+  color: var(--c-font-secondary);
+  background-color: var(--c-bg-dark-1);
+}
+body.dark header div.right div.search .x-button {
+  position: absolute;
+  right: 1.5em;
+  color: var(--c-font-dark);
+}
+body.dark div.lang span {
+  color: var(--c-font-dark);
+}
+body.dark div.lang ul.lang_menu {
+  background-color: var(--c-bg-dark-0);
+  border: 2px solid var(--c-bg-dark-1);
+}
+body.dark div.lang ul.lang_menu li {
+  color: var(--c-font-dark);
+}
+body.dark div.lang ul.lang_menu li:hover {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-white);
+}
+body.dark div.lang ul.lang_menu li.active {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-white);
+}
+body.dark div.avatar ul.profile_menu {
+  background-color: var(--c-bg-dark-0);
+  border: 2px solid var(--c-bg-dark-1);
+}
+body.dark div.avatar ul.profile_menu li {
+  color: var(--c-font-dark);
+}
+body.dark div.avatar ul.profile_menu li a {
+  color: var(--c-font-blue);
+}
+body.dark div.avatar ul.profile_menu li a:hover {
+  background-color: var(--c-font-secondary);
+  color: var(--c-white);
+}
+body.dark div.avatar ul.profile_menu li a:focus {
+  background-color: var(--c-font-secondary);
+  color: var(--c-white);
+}
+body.dark div.avatar ul.profile_menu li:hover {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-white);
+}
+body.dark div.avatar ul.profile_menu li:hover a {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-white);
+}
+body.dark svg.search_svg__feather {
+  color: var(--c-font-dark);
+}
+body.dark .trigger {
+  background: var(--c-bg-dark-1);
+}
+body.dark .topbar-button svg.menu_svg__feather {
+  color: var(--c-font-dark);
+}
+body.dark .topbar-button:hover {
+  background-color: var(--c-bg-dark-2);
+}
+body.dark .topbar-button:hover svg.info_svg__feather, body.dark .topbar-button:hover svg.sun_svg__feather, body.dark .topbar-button:hover svg.x_svg__feather {
+  color: var(--c-white);
+}
+body.dark .topbar-button.bookmark-active {
+  background-color: var(--c-bg-dark-2);
+}
+body.dark .topbar-button.bookmark-active svg {
+  color: var(--c-white);
+}
+body.dark .topbar-button span svg {
+  color: var(--c-font-dark);
+}
+body.dark svg.info_svg__feather,
+body.dark svg.message-circle_svg__feather {
+  color: var(--c-font-dark);
+}
+body.dark .topbar-header {
+  background-color: var(--c-bg-dark-1) !important;
+  color: var(--c-font-dark);
+}
+body.dark .custom-control-input:not(:checked) ~ .custom-control-label::before {
+  border: 2px solid var(--c-bg-dark-1);
+}
+body.dark .custom-switch .custom-control-input:not(:checked) ~ .custom-control-label::after {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .top-menu svg {
+  color: var(--c-font-dark);
+}
+body.dark .top-menu button {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .top-menu button .topbar-button:hover svg {
+  color: var(--c-white);
+}
+body.dark .banner {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .banner button {
+  background-color: var(--c-bg-primary);
+  border: none;
+}
+body.dark .banner button:hover {
+  background-color: var(--c-bg-dark-4);
+}
+body.dark .banner_title {
+  color: var(--c-font-dark) !important;
+}
+body.dark .banner_detail {
+  color: var(--c-font-dark) !important;
+}
+body.dark .footer {
+  color: var(--c-font-dark);
+}
+body.dark .react-autosuggest__input {
+  color: var(--c-font-dark);
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .react-autosuggest__input::-moz-placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .react-autosuggest__input::placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .react-autosuggest__suggestions-container {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .react-autosuggest__suggestion:not(:first-child) {
+  border-top: 1px solid var(--c-bg-dark-2);
+}
+body.dark .react-autosuggest__suggestion--focused,
+body.dark .react-autosuggest__suggestion:hover {
+  background-color: var(--c-bg-dark-0);
+}
+body.dark .suggestion-content .name {
+  color: var(--c-font-dark);
+}
+body.dark .suggestion-content .name .badge {
+  background-color: var(--c-bg-primary);
+}
+body.dark .suggestion-content .name .highlight,
+body.dark .react-autosuggest__suggestion--focused .highlight {
+  color: var(--c-bg-primary);
+}
+body.dark .auth_container {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .auth_container label,
+body.dark .auth_container p,
+body.dark .auth_container a {
+  color: var(--c-font-dark);
+}
+body.dark .forgot_button,
+body.dark .auth_footer {
+  color: var(--c-font-dark);
+}
+body.dark .form-control {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .form-control:focus {
+  border-color: rgba(111, 76, 209, 0.603);
+  box-shadow: 0 0 0 0.2rem rgba(111, 76, 209, 0.603);
+}
+body.dark .form-group input {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-font-dark);
+}
+body.dark .form-group input::-moz-placeholder {
+  color: rgb(143, 146, 148);
+}
+body.dark .form-group input::placeholder {
+  color: rgb(143, 146, 148);
+}
+body.dark .rc-anchor-light {
+  background: none !important;
+  color: #fff !important;
+}
+body.dark .profile-card {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .profile-card button {
+  background-color: var(--c-bg-primary);
+  border: none;
+  color: var(--c-font-dark) !important;
+}
+body.dark .profile-card button:hover {
+  background-color: var(--c-bg-dark-4);
+}
+body.dark .profile-card input {
+  background-color: var(--c-bg-dark-0);
+}
+body.dark .profile-card h4,
+body.dark .profile-card span,
+body.dark .profile-card label,
+body.dark .profile-card .card-text {
+  color: var(--c-font-dark);
+}
+body.dark .profile-heading {
+  color: var(--c-font-dark);
+}
+body.dark .card-body span {
+  color: white !important;
+  background-color: unset !important;
+}
+body.dark .card-body .user-info svg {
+  color: var(--c-font-dark);
+}
+body.dark .sidebar-header {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .sidebar-header svg.x_svg__feather {
+  color: var(--c-font-dark);
+}
+body.dark .sidebar-header svg menu_svg__feather {
+  color: var(--c-font-dark);
+}
+body.dark .sidebar-footer {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .activePage {
+  outline: unset;
+}
+body.dark .pagination li:not(.disabled) a:hover {
+  background-color: var(--c-bg-dark-2);
+}
+body.dark .pagination li.disabled svg {
+  color: var(--c-font-secondary);
+}
+body.dark .pagination li input {
+  background: transparent;
+  color: var(--c-font-dark);
+}
+body.dark .card {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .page .navbar .buttons svg {
+  color: var(--c-font-dark);
+}
+body.dark .timer div input,
+body.dark .timer-main-container {
+  color: var(--c-font-dark);
+}
+body.dark .timer.stopwatch,
+body.dark .timer-main-container div input.stopwatch {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .timer.countdown,
+body.dark .timer-main-container div input.countdown {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .timer-main-control .form-control:disabled,
+body.dark .form-control[readonly] {
+  border: none;
+  box-shadow: none;
+}
+body.dark .timer-main-container div.countdown {
+  background-color: var(--c-bg-dark-1);
+  border: none;
+}
+body.dark .timer-main-container div.countdown.active {
+  background-color: var(--c-bg-dark-0);
+}
+body.dark .timer-main-container div.countdown span {
+  color: var(--c-font-dark);
+}
+body.dark .timer-main-container div.countdown.disabled {
+  background-color: var(--c-bg-dark-0);
+}
+body.dark .timer-main-container div.stopwatch {
+  background-color: var(--c-bg-dark-1);
+  border: none;
+}
+body.dark .timer-main-container div.stopwatch.active {
+  background-color: var(--c-bg-dark-0);
+}
+body.dark .timer-main-container div.stopwatch span {
+  color: var(--c-font-dark);
+}
+body.dark .timer-main-container div.stopwatch.disabled {
+  background-color: var(--c-bg-dark-0);
+}
+body.dark .timer-main-container button.close {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-font-dark);
+}
+body.dark .toolbar-container {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .single-toolbar {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-font-dark);
+}
+body.dark .single-toolbar .toolbar .buttons > li:nth-child(2) .toolbar-image {
+  filter: none;
+}
+body.dark .toolbar-button:hover {
+  background-color: var(--c-bg-dark-2);
+}
+body.dark .toolbar-button:hover img.toolbar-image {
+  filter: invert(100%) sepia(0%) saturate(7499%) hue-rotate(200deg) brightness(98%) contrast(100%);
+}
+body.dark .toolbar-button:hover svg {
+  color: var(--c-white);
+}
+body.dark .toolbar-button.active img.toolbar-image {
+  filter: invert(97%) sepia(6%) saturate(189%) hue-rotate(187deg) brightness(91%) contrast(83%);
+}
+body.dark .toolbar-button img.toolbar-image {
+  filter: invert(97%) sepia(6%) saturate(189%) hue-rotate(187deg) brightness(91%) contrast(83%);
+}
+body.dark .toolbar-button.text-resize {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-font-dark);
+}
+body.dark .toolbar-button.text-resize::-moz-placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .toolbar-button.text-resize::placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .toolbar-button.text-resize:hover {
+  background-color: var(--c-bg-dark-2);
+  color: var(--c-white);
+}
+body.dark #dropdown-group-1,
+body.dark #dropdown-group-2 {
+  color: var(--c-font-dark);
+  fill: var(--c-font-dark);
+}
+body.dark #dropdown-group-1:hover,
+body.dark #dropdown-group-2:hover {
+  background-color: var(--c-bg-dark-2);
+  fill: var(--c-white);
+}
+body.dark #dropdown-group-1:hover svg,
+body.dark #dropdown-group-2:hover svg {
+  color: var(--c-white);
+}
+body.dark .dropdown-menu {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .react-draggable.content-modal {
+  background-color: var(--c-bg-dark-0);
+}
+body.dark .resizable-div .content-header {
+  background-color: var(--c-bg-dark-1);
+  border: none;
+}
+body.dark .resizable-div .content-header span {
+  color: var(--c-font-dark);
+}
+body.dark .resizable-div .content-header svg {
+  color: var(--c-font-dark);
+}
+body.dark .resizable-div .content-header .maximize_button:hover {
+  background-color: var(--c-bg-dark-0);
+}
+body.dark .resizable-div .content-body span {
+  color: var(--c-font-dark);
+}
+body.dark .resizable-div .content-form textarea {
+  color: var(--c-font-dark);
+}
+body.dark .resizable-div .content-form textarea::-moz-placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .resizable-div .content-form textarea::placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .resizable-div .content-form .custom-file-label {
+  color: var(--c-font-dark);
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .resizable-div .content-form .custom-file-label::after {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-font-dark);
+}
+body.dark .modal-footer-info {
+  color: var(--c-font-dark);
+}
+body.dark .modal-content {
+  background-color: var(--c-bg-dark-0);
+  color: var(--c-font-dark);
+}
+body.dark .modal-content .modal-header {
+  background-color: var(--c-bg-dark-1) !important;
+  color: var(--c-font-dark);
+  border: none;
+}
+body.dark .modal-content .modal-header span {
+  color: var(--c-font-dark);
+}
+body.dark .modal-content .modal-header .btn-close {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(234deg) brightness(104%) contrast(104%);
+  opacity: 0.75;
+}
+body.dark .modal-content .modal-header .btn-close:hover {
+  opacity: 0.95;
+}
+body.dark .modal-content .modal-body button {
+  background-color: var(--c-bg-primary);
+  border: none;
+}
+body.dark .modal-content .modal-body button:hover {
+  background-color: var(--c-bg-dark-4);
+}
+body.dark .modal-content input::-moz-placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .modal-content input::placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .modal-content textarea {
+  background-color: var(--c-bg-dark-1);
+  border: 1px solid var(--c-font-dark);
+  color: var(--c-font-dark);
+}
+body.dark .modal-content textarea::-moz-placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .modal-content textarea::placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .modal-content .favorite {
+  background-color: var(--c-bg-dark-0);
+  border: 1px solid var(--c-bg-dark-2);
+}
+body.dark .bookmark-svg-container {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .bookmark-svg-container svg {
+  color: var(--c-font-dark);
+}
+body.dark .bookmark-svg-container:hover {
+  background-color: var(--c-bg-dark-2);
+}
+body.dark .bookmark-svg-container:hover svg {
+  color: var(--c-white);
+}
+body.dark .content {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-font-primary);
+}
+body.dark .item {
+  color: var(--c-font-dark);
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .item img {
+  filter: invert(97%) sepia(6%) saturate(189%) hue-rotate(187deg) brightness(91%) contrast(83%);
+}
+body.dark .item:not(.content-item):hover {
+  background-color: var(--c-bg-dark-2);
+  color: var(--c-white);
+}
+body.dark .item:not(.content-item):hover .item-right {
+  color: var(--c-white);
+}
+body.dark .item[data-state=open] {
+  background-color: var(--c-bg-dark-2);
+  color: var(--c-white);
+}
+body.dark .item.item-active {
+  background-color: var(--c-bg-dark-2);
+  color: var(--c-white);
+}
+body.dark .item.item-active .item-right {
+  color: var(--c-white);
+}
+body.dark .item a {
+  color: var(--c-font-dark);
+}
+body.dark .acordionHeader {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .acordionHeader svg.book-open_svg__feather {
+  color: var(--c-bg-primary);
+}
+body.dark .acordionHeader svg.bookmark_svg__feather {
+  color: var(--c-bg-primary);
+}
+body.dark .acordionHeader svg.edit-3_svg__feather {
+  color: var(--c-bg-primary);
+}
+body.dark .acordionItem {
+  color: var(--c-font-dark);
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .sc-pVTFL rect {
+  display: flex;
+  fill: var(--c-black);
+}
+body.dark .sc-pVTFL .reactour__mask--disable-interaction {
+  fill: var(--c-white) !important;
+  fill-opacity: 0.4;
+}
+body.dark .swal2-popup {
+  background: var(--c-bg-dark-1);
+}
+body.dark .swal2-popup .swal2-html-container {
+  color: var(--c-font-dark);
+}
+body.dark .modal_text_color {
+  color: var(--c-font-dark);
+}
+body.dark .assistant-modal-footer .form-control {
+  color: var(--c-font-dark);
+}
+body.dark .assistant-modal-footer .form-control:disabled,
+body.dark .assistant-modal-footer .form-control[readonly] {
+  color: var(--c-font-disabled);
+}
+body.dark .progress-model .progress-bar {
+  background-color: var(--c-bg-dark-2);
+}
+body.dark .progress-model .progress {
+  background-color: var(--c-bg-dark-1);
+}
+body.dark .translator-main-container button.close {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-font-dark);
+}
+body.dark .translator-main-container .form-control {
+  color: var(--c-font-dark);
+}
+body.dark .translator-main-container .translated-text,
+body.dark .translator-main-container .header {
+  background: var(--c-bg-dark-1) !important;
+}
+body.dark .translator-main-container .body {
+  background: var(--c-bg-dark-0);
+}
+body.dark .translator-main-container .body p {
+  color: var(--c-font-dark);
+}
+body.dark .translator-main-container .switch {
+  filter: invert(1);
+}
+body.dark .translator-main-container textarea::-moz-placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .translator-main-container textarea::placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .image-searcher-main-container button.close {
+  background-color: var(--c-bg-dark-1);
+  color: var(--c-font-dark);
+}
+body.dark .image-searcher-main-container .form-control {
+  color: var(--c-font-dark);
+}
+body.dark .image-searcher-main-container .form-control::-moz-placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .image-searcher-main-container .form-control::placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .image-searcher-main-container .header {
+  background: var(--c-bg-dark-1) !important;
+}
+body.dark .image-searcher-main-container .body,
+body.dark .image-searcher-main-container .header + div,
+body.dark .image-searcher-main-container .footer {
+  background: var(--c-bg-dark-0);
+}
+body.dark .image-searcher-main-container .body p,
+body.dark .image-searcher-main-container .header + div p,
+body.dark .image-searcher-main-container .footer p {
+  color: var(--c-font-dark);
+}
+body.dark .image-searcher-main-container .switch {
+  filter: invert(1);
+}
+body.dark .modal-close-button {
+  opacity: unset !important;
+}
+body.dark .modal-close-button svg {
+  color: var(--c-font-dark);
+}
+body.dark .tutoring-sidebar {
+  background-color: var(--c-bg-dark-0);
+  color: var(--c-font-dark);
+}
+body.dark .tutoring-sidebar .active-text a {
+  color: var(--c-bg-primary) !important;
+}
+body.dark .tutoring-sidebar button svg {
+  color: var(--c-font-dark) !important;
+}
+body.dark .tutoring-form textarea,
+body.dark .tutoring-form p,
+body.dark .tutoring-form span,
+body.dark .tutoring-form small,
+body.dark .gpt-message-reviewer textarea,
+body.dark .gpt-message-reviewer p,
+body.dark .gpt-message-reviewer span,
+body.dark .gpt-message-reviewer small {
+  color: var(--c-font-dark);
+}
+body.dark .tutoring-form textarea::-moz-placeholder, body.dark .tutoring-form p::-moz-placeholder, body.dark .tutoring-form span::-moz-placeholder, body.dark .tutoring-form small::-moz-placeholder, body.dark .gpt-message-reviewer textarea::-moz-placeholder, body.dark .gpt-message-reviewer p::-moz-placeholder, body.dark .gpt-message-reviewer span::-moz-placeholder, body.dark .gpt-message-reviewer small::-moz-placeholder {
+  color: var(--c-font-dark);
+}
+body.dark .tutoring-form textarea::placeholder,
+body.dark .tutoring-form p::placeholder,
+body.dark .tutoring-form span::placeholder,
+body.dark .tutoring-form small::placeholder,
+body.dark .gpt-message-reviewer textarea::placeholder,
+body.dark .gpt-message-reviewer p::placeholder,
+body.dark .gpt-message-reviewer span::placeholder,
+body.dark .gpt-message-reviewer small::placeholder {
+  color: var(--c-font-dark);
+}/*# sourceMappingURL=dark.css.map */
