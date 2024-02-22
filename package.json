@@ -1,7 +1,8 @@
 {
-  "name": "Apitwist Book",
+  "name": "ApitwistBook",
   "version": "1.0.0",
   "private": true,
+  "author": "apitwist",
   "main": "public/main.js",
   "homepage": "./",
   "description": "ApiTwist Book App",
@@ -68,7 +69,7 @@
     "@electron/rebuild": "^3.6.0",
     "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
-    "electron": "^29.0.0",
+    "electron": "^29.0.1",
     "electron-devtools-installer": "^3.1.1",
     "electron-is-dev": "^3.0.1",
     "electron-rebuild": "^3.2.9",
@@ -79,12 +80,15 @@
   "config": {
     "forge": {
       "packagerConfig": {
-        "name": "Apitwist Book",
+        "name": "ApitwistBook",
         "icon": "public/favicons/favicon.ico"
       },
       "makers": [
         {
           "name": "@electron-forge/maker-zip"
+        },
+        {
+          "name": "@electron-forge/maker-appx"
         }
       ]
     }
